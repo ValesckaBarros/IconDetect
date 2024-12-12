@@ -1,0 +1,13 @@
+train: I:/My Drive/SOFTEX/MONOGRAFIA/1 - codigos/treino1/detect_clickable_icons.v1i.yolov8/train
+val: I:/My Drive/SOFTEX/MONOGRAFIA/1 - codigos/treino1/detect_clickable_icons.v1i.yolov8/valid
+test: I:/My Drive/SOFTEX/MONOGRAFIA/1 - codigos/treino1/detect_clickable_icons.v1i.yolov8/test
+
+nc: 8
+names: ['Checkbox', 'CommunBotton', 'DropdownList', 'NumKeyboard', 'RadioButton', 'TextField', 'TextKeyboard', 'menu']
+
+roboflow:
+  workspace: valescka-barros
+  project: detect_clickable_icons
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/valescka-barros/detect_clickable_icons/dataset/1
