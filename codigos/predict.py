@@ -2,10 +2,10 @@ from ultralytics import YOLO  # Certifique-se de ter o pacote ultralytics instal
 import os
 
 # Caminho para o modelo treinado
-model = YOLO("treino7_3797img_150epochs/experimento_v4/weights/best.pt")  # Caminho para o modelo
+model = YOLO("treinos/treino8_7500img_100epochs_retangular/experimento_v4/weights/best.pt")  # Caminho para o modelo
 
 # Caminho da pasta contendo as imagens de entrada
-image_folder = 'C:/Users/vrmsb/Desktop/take_picture/cropped_images-realme'  # Substitua pelo caminho da pasta
+image_folder = 'pictures/test'  # Substitua pelo caminho da pasta
 
 # Caminho para salvar os resultados
 output_folder = 'resultados'  # Substitua pelo caminho onde deseja salvar os resultados
