@@ -48,10 +48,8 @@ Ferramenta para enviar datasets para o Roboflow. Útil para armazenar e comparti
 #### [upload_weight_to_roboflow.py](codigos/upload_weight_to_roboflow.py)
 Código para fazer upload de pesos de modelos treinados para o Roboflow, permitindo armazenar e compartilhar os resultados do treinamento de forma centralizada.
 
-
-
-
-
-## Contribuição  
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.  
-
+## Dataset
+As imagens capturadas foram obtidas a partir de filmagens de interações aleatórias com diversos aplicativos dos celulares utilizados. foram utiliazados 8 modelos de celulares (Realme 11 Pro+, Xiaomi POCO M4 PRO, Xiaomi POCO X3 Pro, Xiaomi Redmi Note 12, Xiaomi 13 Lite, Samsung A34, Samsung S20FE, Moto G32 ) disponibilizados pela Rsidência em Robótica e IA.
+todas as imagens capturadas estão armazenadas na pasta [**Original_images**](https://drive.google.com/drive/folders/1-AYjCTlnAyspbGdZxViw-F-SIS0umxJ2?usp=sharing).
+O **[Dataset](https://drive.google.com/drive/folders/1-AYjCTlnAyspbGdZxViw-F-SIS0umxJ2?usp=sharing)** foi rotulado e revisado utilizando a plataforma Roboflow. No total foram geradas 3151 imagens rotuladas, sendo separadas 70% para treinamento, 20% para validação e 10% para teste. 
+ 
